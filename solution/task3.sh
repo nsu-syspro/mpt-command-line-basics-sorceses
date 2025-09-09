@@ -1,1 +1,1 @@
-find . -type f -name "*.txt" -exec basename {} \; | sort
+find . -name "*.txt" -type f -exec basename {} \; | sort
